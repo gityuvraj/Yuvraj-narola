@@ -1,0 +1,31 @@
+span.required-error,
+.error-smart {
+    font-size: 16px !important;
+    color: red !important;
+    line-height: 1 !important;
+    margin-top: 6px;
+    display: block;
+    font-family: 'El Messiri'
+}
+
+.validation.custom-error {
+    color: red;
+    font-size: 14px;
+    border: 1px solid red;
+    text-align: center;
+    margin-top: 20px !important;
+}     
+
+
+.narola_form label {
+ display:block; padding:15px 0px 4px 0px;
+} 
+.narola_form input[type=text],input[type=email] {
+ width:400px; padding:8px; 
+} 
+.narola_form textarea {
+ width:400px; height:200px; padding:8px;
+}
+.narola_form select {
+ width:400px; height:50px; padding:8px;
+}
