@@ -4,7 +4,7 @@
 
 	require_once($path."wp-load.php");
 
-	if(isset($_POST['ideaproContactSubmit']) && $_POST['ideaproContactSubmit'] == "1")
+	if(isset($_POST['contact_submit']) && $_POST['contact_submit'] == "1")
 	{
 		/* get the information from the post submit */
 		$name = sanitize_text_field($_POST['name']);
